@@ -328,7 +328,7 @@ body {
   width: 300px;
   height: 300px;
   background: #333333;
-  border: 3px solid #D76C2F; /* Thicker, more vibrant border */
+  border: 3px solid #034906; /* Thicker, more vibrant border */
   box-shadow: 0 0 20px rgba(215, 108, 47, 0.5), inset 0 0 10px rgba(0, 0, 0, 0.3); /* Enhanced shadow and glow */
   overflow: hidden;
 }
@@ -625,14 +625,14 @@ footer {
     width: 170px; /* Smaller size for mobile */
     height: 170px;
     animation: rotateCube 40s infinite linear; /* Slower rotation for mobile */
-    margin-top: 75px;
+    margin-top: 70px;
   }
 
   .cube-face {
     width: 200px;
     height: 200px;
     border: 2px solid #033f0b; /* Slightly thinner border for mobile */
-    box-shadow: 0 0 10px rgba(215, 108, 47, 0.3); /* Lighter shadow for mobile */
+    box-shadow: 0 0 10px rgba(147, 223, 137, 0.3); /* Lighter shadow for mobile */
   }
 
   .front  { transform: rotateY(0deg) translateZ(100px); }
