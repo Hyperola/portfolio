@@ -579,6 +579,7 @@ footer {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    min-height: auto;
   }
 
   .intro-left {
@@ -621,9 +622,10 @@ footer {
   }
 
   .cube {
-    width: 200px; /* Smaller size for mobile */
-    height: 200px;
+    width: 170px; /* Smaller size for mobile */
+    height: 170px;
     animation: rotateCube 40s infinite linear; /* Slower rotation for mobile */
+    margin-top: 75px;
   }
 
   .cube-face {
