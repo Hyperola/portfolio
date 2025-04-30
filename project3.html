@@ -3,24 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sanni Sodiq's project page for Hoodit, showcasing UI/UX design and front-end development work." />
+    <meta name="keywords" content="UI/UX, front-end, Hoodit, Sanni Sodiq, portfolio" />
+    <meta property="og:title" content="Sanni Sodiq - Hoodit Project" />
+    <meta property="og:description" content="Discover my work on Hoodit, a student-focused rental and marketplace web app." />
+    <meta property="og:image" content="hoodit.png" />
     <title>Sanni Sodiq - Hoodit</title>
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" as="style">
+    <!-- Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="project3.css" />
   </head>
   <body>
-    <nav class="float-nav">
+    <!-- Navigation -->
+    <nav class="float-nav" aria-label="Main navigation">
       <div class="nav-content">
-        <h1>Sanni Sodiq</h1>
-        <ul>
+        <div class="nav-header">
+          <h1>Sanni Sodiq</h1>
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <i class="bx bx-menu"></i>
+          </button>
+        </div>
+        <ul class="nav-links">
           <li><a href="index.html#intro">Intro</a></li>
           <li><a href="index.html#about">About</a></li>
           <li><a href="index.html#work">Work</a></li>
@@ -30,125 +40,121 @@
       </div>
     </nav>
 
+    <!-- Project Page -->
     <section class="project-page">
-      <div class="project-header">
-        <h1>Hoodit</h1>
-        <p>Front-end Development</p>
+      <!-- Hero Section -->
+      <div class="project-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1 class="project-title">Hoodit</h1>
+          <p class="project-subtitle">UI/UX Design & Front-end Development</p>
+          <img src="hoodit.png" alt="Hoodit" class="project-hero-img" loading="lazy" />
+        </div>
       </div>
+
+      <!-- Project Content -->
       <div class="project-content">
-        <img
-        src="hoodit.png"
-        alt="Hoodit"
-        class="project-hero-img"
-      />
-        <div class="project-details">
-          <h2>Overview</h2>
+        <!-- Overview -->
+        <div class="content-card">
+          <h2><i class="bx bx-info-circle"></i> Overview</h2>
           <p>
-            Hoodit is a student focused rental and marketplace web app. it
-            connects students with verified landlords and sellers offfering
-            secure housing and a trusted space to buy/sell essentials.
+            Hoodit is a student-focused rental and marketplace web app. It connects students with verified landlords and sellers, offering secure housing and a trusted space to buy/sell essentials.
           </p>
+        </div>
 
-          <h2>User Research</h2>
-          <p>
-            <strong>Method:</strong> Surveys, interviews and community observation.
-          </p>
-          <p>
-            <strong>Key Insights:</strong> <P>Students struggle to find affordable verified listings</P> <P>
-              Fear of scams makes them wary of online transactions.<p>
-                There's a demand for a student-only trusted platforms.
-              </p>
-            </P>
-          </p>
+        <!-- User Research -->
+        <div class="content-card">
+          <h2><i class="bx bx-user-voice"></i> User Research</h2>
+          <p><strong>Method:</strong> Surveys, interviews, and community observation.</p>
+          <p><strong>Key Insights:</strong></p>
+          <ul>
+            <li>Students struggle to find affordable, verified listings.</li>
+            <li>Fear of scams makes them wary of online transactions.</li>
+            <li>There's a demand for a student-only trusted platform.</li>
+          </ul>
+        </div>
 
-          <h2>Problem Statement</h2>
+        <!-- Problem Statement -->
+        <div class="content-card">
+          <h2><i class="bx bx-question-mark"></i> Problem Statement</h2>
           <p>
-            Students need a safe, reliable way to find housing and buy/sell goods within thier campus communities.
+            Students need a safe, reliable way to find housing and buy/sell goods within their campus communities.
           </p>
+        </div>
 
-          
-          <h2>Design Process</h2>
-          <p>
-            <strong>Personas:</strong> Developed 3 personas: "Busy Student,"
-            "Freelance Creative," and "Tech-Savvy Professional."
-          </p>
-          <p>
-            <strong>Wireframes:</strong> Sketched low-fidelity wireframes in
-            Figma, focusing on a tabbed interface for quick toggling.
-          </p>
-          <p>
-            <strong>Prototyping:</strong> Built high-fidelity prototypes, tested
-            with 12 users, and iterated based on feedback—e.g., simplified the
-            onboarding flow.
-          </p>
-          <p>
-            <strong>Visual Design:</strong> Used Slate Gray as the base with
-            orange accents (#F28C38) for vibrancy, ensuring a modern,
-            approachable feel.
-          </p>
+        <!-- Design Process -->
+        <div class="content-card">
+          <h2><i class="bx bx-bulb"></i> Design Process</h2>
+          <p><strong>Personas:</strong> Developed 3 personas: "Busy Student," "Freelance Creative," and "Tech-Savvy Professional."</p>
+          <p><strong>Wireframes:</strong> Sketched low-fidelity wireframes in Figma, focusing on a tabbed interface for quick toggling.</p>
+          <p><strong>Prototyping:</strong> Built high-fidelity prototypes, tested with 12 users, and iterated based on feedback—e.g., simplified the onboarding flow.</p>
+          <p><strong>Visual Design:</strong> Used Slate Gray as the base with orange accents (#F28C38) for vibrancy, ensuring a modern, approachable feel.</p>
+        </div>
 
+        <!-- Development Process -->
+        <div class="content-card">
+          <h2><i class="bx bx-code-alt"></i> Development Process</h2>
+          <p><strong>Tech Stack:</strong> React.js, Node.js, MongoDB, Express.js, Google Auth, Vercel.</p>
+          <p><strong>Features:</strong></p>
+          <ul>
+            <li>Verified house listings and seller profiles.</li>
+            <li>Secure Login (Google).</li>
+            <li>Real-time chat & Map-based Filtering.</li>
+            <li>Wishlist & Favorites.</li>
+            <li>User reviews & ratings.</li>
+          </ul>
+        </div>
 
-          <h2>Development Process</h2>
-          <p>
-            <strong>Tech Stack:</strong> React.js,Node.js, MongoDB, Express.js, Google Auth, Vercel.
-          
-          </p>
-          <p>
-            <strong>Features:</strong> Verified house listings and sellers profiles <p>Secure Login (Google)</p>
-            <p>Real-time chat & Map-based Filtering</p><p>Whilst & favorites</p><P>User reviews & ratings</P>
-          </p>
+        <!-- Challenges -->
+        <div class="content-card">
+          <h2><i class="bx bx-block"></i> Challenges</h2>
+          <p><strong>Challenge:</strong> Designing a seamless user experience that combines house listings and marketplace without overwhelming users.</p>
+          <p><strong>Solution:</strong> Simplified navigation by separating both features into clear categories, used intuitive icons, consistent color schemes, and clear CTAs to guide users. Streamlined user flows and focused on minimal layouts to ensure clarity and ease of use.</p>
+        </div>
 
-          <h2>Challenges</h2>
-          <p>
-            <strong>Challenge:</strong> Design a seamless user experience that combine house Listings and market place 
-            without overwhelming users.
-          </p>
-          <p>
-            <strong>Solution:</strong> I simplified the navigation by seperating both features into clear categories ,
-            i used intuitive icons, consisitent color schemes and clear CTAs to guide users. User flows were
-            streamlined, and i focused on minimal layouts to ensure clarity and ease of use.
-          </p>
+        <!-- Results -->
+        <div class="content-card">
+          <h2><i class="bx bx-check-circle"></i> Results</h2>
+          <p><strong>Metrics:</strong> [Awaiting specific metrics from client feedback or testing sessions.]</p>
+        </div>
 
-          <h2>Results</h2>
-          <p>
-            <strong>Metrics:</strong> 
-          </p>
-
-          <h2>Visuals</h2>
+        <!-- Visuals -->
+        <div class="content-card">
+          <h2><i class="bx bx-image"></i> Visuals</h2>
           <div class="project-gallery">
-            <img
-              src="hoodit2.png"
-              alt="Gallery"
-              class="gallery-img"
-            />
-            <img
-              src="hoodit3.png"
-              alt="Gallery"
-              class="gallery-img"
-            />
-            <img
-              src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
-              alt="Mobile View"
-              class="gallery-img"
-            />
+            <div class="gallery-item">
+              <img src="hoodit2.png" alt="Homepage" class="gallery-img" loading="lazy" />
+              <p class="gallery-caption">Homepage</p>
+            </div>
+            <div class="gallery-item">
+              <img src="hoodit3.png" alt="Marketplace" class="gallery-img" loading="lazy" />
+              <p class="gallery-caption">Marketplace</p>
+            </div>
+            <div class="gallery-item">
+              <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" alt="Mobile View" class="gallery-img" loading="lazy" />
+              <p class="gallery-caption">Mobile View</p>
+            </div>
           </div>
+        </div>
 
+        <!-- Buttons -->
+        <div class="project-buttons">
           <a href="[Project Link]" class="btn">Live Site</a>
           <a href="index.html#work" class="btn secondary">Back to Projects</a>
         </div>
       </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-      <p>© 2025 Sanni Sodiq. All Rights Reserved.</p>
+      <p>© 2025 Sanni Sodiq. Designed & Coded with Swagger.</p>
       <div class="social-links">
-        <a href="[Your GitHub URL]" target="_blank"
-          ><i class="bx bxl-github"></i
-        ></a>
-        <a href="[Your Twitter URL]" target="_blank"
-          ><i class="bx bxl-twitter"></i
-        ></a>
+        <a href="https://github.com/sodiqolaniyi" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://twitter.com/sodiqolaniyi" target="_blank"><i class="bx bxl-twitter"></i></a>
       </div>
     </footer>
+
+    <!-- Custom JS -->
+    <script src="project3.js"></script>
   </body>
 </html>

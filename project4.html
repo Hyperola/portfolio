@@ -3,24 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sanni Sodiq - Nova Landing Page</title>
+    <meta name="description" content="Sanni Sodiq's project page for Nova Fashion Landing Page, showcasing UI/UX design and front-end development work." />
+    <meta name="keywords" content="UI/UX, front-end, Nova, Sanni Sodiq, portfolio" />
+    <meta property="og:title" content="Sanni Sodiq - Nova Fashion Landing Page Project" />
+    <meta property="og:description" content="Discover my work on Nova, a high-end fashion landing page." />
+    <meta property="og:image" content="nova-hero.png" />
+    <title>Sanni Sodiq - Nova Fashion Landing Page</title>
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" as="style">
+    <!-- Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="project3.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="project4.css" />
   </head>
   <body>
-    <nav class="float-nav">
+    <!-- Navigation -->
+    <nav class="float-nav" aria-label="Main navigation">
       <div class="nav-content">
-        <h1>Sanni Sodiq</h1>
-        <ul>
+        <div class="nav-header">
+          <h1>Sanni Sodiq</h1>
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <i class="bx bx-menu"></i>
+          </button>
+        </div>
+        <ul class="nav-links">
           <li><a href="index.html#intro">Intro</a></li>
           <li><a href="index.html#about">About</a></li>
           <li><a href="index.html#work">Work</a></li>
@@ -30,104 +40,115 @@
       </div>
     </nav>
 
+    <!-- Project Page -->
     <section class="project-page">
-      <div class="project-header">
-        <h1>Nova - Fashion Landing Page</h1>
-        <p>UI/UX Design, Front-end Concept</p>
+      <!-- Hero Section -->
+      <div class="project-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1 class="project-title">Nova - Fashion Landing Page</h1>
+          <p class="project-subtitle">UI/UX Design & Front-end Concept</p>
+          <img src="nova-hero.png" alt="Nova Landing Page" class="project-hero-img" loading="lazy" />
+        </div>
       </div>
+
+      <!-- Project Content -->
       <div class="project-content">
-        <img
-          src="nova-hero.png"
-          alt="Nova Landing Page"
-          class="project-hero-img"
-        />
-        <div class="project-details">
-          <h2>Overview</h2>
+        <!-- Overview -->
+        <div class="content-card">
+          <h2><i class="bx bx-info-circle"></i> Overview</h2>
           <p>
             Nova is a high-end fashion landing page designed to immediately capture attention with strong visual storytelling and clear call-to-actions. Built in Figma, it blends minimalist UI trends with an emotional connection to fashion enthusiasts.
           </p>
+        </div>
 
-          <h2>User Research</h2>
-          <p>
-            <strong>Method:</strong> Competitor analysis and informal interviews with 8 fashion consumers.
-          </p>
-          <p>
-            <strong>Key Insights:</strong> 
-            <p>Users are drawn to bold visuals and fast navigation.</p>
-            <p>Clear CTAs ("Explore Styles", "Contact Us") drive higher interaction.</p>
-            <p>Clutter-free layouts enhance trust and luxury perception.</p>
-          </p>
+        <!-- User Research -->
+        <div class="content-card">
+          <h2><i class="bx bx-user-voice"></i> User Research</h2>
+          <p><strong>Method:</strong> Competitor analysis and informal interviews with 8 fashion consumers.</p>
+          <p><strong>Key Insights:</strong></p>
+          <ul>
+            <li>Users are drawn to bold visuals and fast navigation.</li>
+            <li>Clear CTAs ("Explore Styles", "Contact Us") drive higher interaction.</li>
+            <li>Clutter-free layouts enhance trust and luxury perception.</li>
+          </ul>
+        </div>
 
-          <h2>Problem Statement</h2>
+        <!-- Problem Statement -->
+        <div class="content-card">
+          <h2><i class="bx bx-question-mark"></i> Problem Statement</h2>
           <p>
             How might we design a landing page that builds instant brand trust while encouraging users to explore outfit styles effortlessly?
           </p>
+        </div>
 
-          <h2>Design Process</h2>
-          <p>
-            <strong>Personas:</strong> Developed personas like "Style Seeker" and "Occasional Shopper" based on research insights.
-          </p>
-          <p>
-            <strong>Wireframes:</strong> Sketched wireframes emphasizing a strong hero section, quick access to categories, and minimalistic design.
-          </p>
-          <p>
-            <strong>Prototyping:</strong> Iterated several hero designs, testing visual hierarchy, CTA placement, and emotional impact.
-          </p>
-          <p>
-            <strong>Visual Design:</strong> Used modern purple (#7F56D9) with soft white text for elegance. Added earthy button tones for a balanced pop. Prioritized negative space for a clean, luxury feel.
-          </p>
+        <!-- Design Process -->
+        <div class="content-card">
+          <h2><i class="bx bx-bulb"></i> Design Process</h2>
+          <p><strong>Personas:</strong> Developed personas like "Style Seeker" and "Occasional Shopper" based on research insights.</p>
+          <p><strong>Wireframes:</strong> Sketched wireframes emphasizing a strong hero section, quick access to categories, and minimalistic design.</p>
+          <p><strong>Prototyping:</strong> Iterated several hero designs, testing visual hierarchy, CTA placement, and emotional impact.</p>
+          <p><strong>Visual Design:</strong> Used modern purple (#7F56D9) with soft white text for elegance. Added earthy button tones for a balanced pop. Prioritized negative space for a clean, luxury feel.</p>
+        </div>
 
-          <h2>Development</h2>
-          <p>
-            <strong>Tech Stack:</strong> HTML5, CSS3, Five Server (live preview).
-          </p>
-          <p>
-            <strong>Features:</strong> Fully responsive layout, smooth typography scale, and hover interactions for call-to-action elements.
-          </p>
+        <!-- Development -->
+        <div class="content-card">
+          <h2><i class="bx bx-code-alt"></i> Development</h2>
+          <p><strong>Tech Stack:</strong> HTML5, CSS3, Five Server (live preview).</p>
+          <p><strong>Features:</strong></p>
+          <ul>
+            <li>Fully responsive layout.</li>
+            <li>Smooth typography scale.</li>
+            <li>Hover interactions for call-to-action elements.</li>
+          </ul>
+        </div>
 
-          <h2>Challenges</h2>
-          <p>
-            <strong>Challenge:</strong> Maintaining visual impact across different screen sizes (desktop, tablet, mobile) without losing design balance.
-          </p>
-          <p>
-            <strong>Solution:</strong> Carefully adapted responsive grids, scaled typography dynamically, and preserved whitespace at all breakpoints for clean UX.
-          </p>
+        <!-- Challenges -->
+        <div class="content-card">
+          <h2><i class="bx bx-block"></i> Challenges</h2>
+          <p><strong>Challenge:</strong> Maintaining visual impact across different screen sizes (desktop, tablet, mobile) without losing design balance.</p>
+          <p><strong>Solution:</strong> Carefully adapted responsive grids, scaled typography dynamically, and preserved whitespace at all breakpoints for clean UX.</p>
+        </div>
 
-          <h2>Results</h2>
-          <p>
-            <strong>Outcome:</strong> A polished, portfolio-ready fashion landing page demonstrating visual design skills, UX thinking, and responsive development fundamentals.
-          </p>
+        <!-- Results -->
+        <div class="content-card">
+          <h2><i class="bx bx-check-circle"></i> Results</h2>
+          <p><strong>Outcome:</strong> A polished, portfolio-ready fashion landing page demonstrating visual design skills, UX thinking, and responsive development fundamentals.</p>
+        </div>
 
-          <h2>Visuals</h2>
+        <!-- Visuals -->
+        <div class="content-card">
+          <h2><i class="bx bx-image"></i> Visuals</h2>
           <div class="project-gallery">
-            <img
-              src="no1.jpeg"
-              alt="Nova Desktop View"
-              class="gallery-img"
-            />
-            <img
-              src="nova-mobile.png"
-              alt="Nova Mobile View"
-              class="gallery-img"
-            />
+            <div class="gallery-item">
+              <img src="no1.jpeg" alt="Nova Desktop View" class="gallery-img" loading="lazy" />
+              <p class="gallery-caption">Desktop View</p>
+            </div>
+            <div class="gallery-item">
+              <img src="nova-mobile.png" alt="Nova Mobile View" class="gallery-img" loading="lazy" />
+              <p class="gallery-caption">Mobile View</p>
+            </div>
           </div>
+        </div>
 
+        <!-- Buttons -->
+        <div class="project-buttons">
           <a href="[Nova Project Live Link]" class="btn">Live Site</a>
           <a href="index.html#work" class="btn secondary">Back to Projects</a>
         </div>
       </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-      <p>© 2025 Sanni Sodiq. All Rights Reserved.</p>
+      <p>© 2025 Sanni Sodiq. Designed & Coded with Swagger.</p>
       <div class="social-links">
-        <a href="[Your GitHub URL]" target="_blank"
-          ><i class="bx bxl-github"></i
-        ></a>
-        <a href="[Your Twitter URL]" target="_blank"
-          ><i class="bx bxl-twitter"></i
-        ></a>
+        <a href="https://github.com/sodiqolaniyi" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://twitter.com/sodiqolaniyi" target="_blank"><i class="bx bxl-twitter"></i></a>
       </div>
     </footer>
+
+    <!-- Custom JS -->
+    <script src="project4.js"></script>
   </body>
 </html>

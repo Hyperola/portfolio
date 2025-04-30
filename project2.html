@@ -3,24 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sanni Sodiq - Sales-Rep Dashboard</title>
+    <meta name="description" content="Sanni Sodiq's project page for Superstore Management Software, showcasing UI/UX design work." />
+    <meta name="keywords" content="UI/UX, Superstore Management, Sanni Sodiq, portfolio" />
+    <meta property="og:title" content="Sanni Sodiq - Superstore Management Software Project" />
+    <meta property="og:description" content="Discover my work on Superstore Management Software, a comprehensive UI/UX design project." />
+    <meta property="og:image" content="ddd.png" />
+    <title>Sanni Sodiq - Superstore Management Software</title>
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" as="style">
+    <!-- Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <!-- Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="project2.css" />
   </head>
   <body>
-    <nav class="float-nav">
+    <!-- Navigation -->
+    <nav class="float-nav" aria-label="Main navigation">
       <div class="nav-content">
-        <h1>Sanni Sodiq</h1>
-        <ul>
+        <div class="nav-header">
+          <h1>Sanni Sodiq</h1>
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <i class="bx bx-menu"></i>
+          </button>
+        </div>
+        <ul class="nav-links">
           <li><a href="index.html#intro">Intro</a></li>
           <li><a href="index.html#about">About</a></li>
           <li><a href="index.html#work">Work</a></li>
@@ -30,123 +40,108 @@
       </div>
     </nav>
 
+    <!-- Project Page -->
     <section class="project-page">
-      <div class="project-header">
-        <h1>Sales-Rep Dashboard</h1>
-        <p>UI/UX Design</p>
+      <!-- Hero Section -->
+      <div class="project-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1 class="project-title">Superstore Management Software</h1>
+          <p class="project-subtitle">UI/UX Design</p>
+          <img src="ddd.png" alt="Superstore Management Software" class="project-hero-img" loading="lazy" />
+        </div>
       </div>
+
+      <!-- Project Content -->
       <div class="project-content">
-        <img
-          src="dash3.png"
-          alt="Sales-Rep Dashboard"
-          class="project-hero-img"
-        />
-        <div class="project-details">
-          <h2>Overview</h2>
+        <!-- Overview -->
+        <div class="content-card">
+          <h2><i class="bx bx-info-circle"></i> Overview</h2>
           <p>
-            A high-fidelity prototype for a complete Superstore Management Software, designed to
-             streamline key operations including sales processing (POS), inventory tracking, staff 
-             management, and business reporting — all from a unified dashboard
+            A high-fidelity prototype for a complete Superstore Management Software, designed to streamline key operations including sales processing (POS), inventory tracking, staff management, and business reporting — all from a unified dashboard.
           </p>
+        </div>
 
-          <h2>User Research</h2>
-          <p>
-            <strong>Method:</strong>  Interviewed superstore staff across cashier, inventory, and management
-             roles; observed workflows at 3 retail locations.
-          </p>
-          <p>
-            <strong>Findings:</strong>  Existing systems were disconnected, causing slow checkouts, manual inventory errors,
-             and delayed sales reporting.
-          </p>
+        <!-- User Research -->
+        <div class="content-card">
+          <h2><i class="bx bx-user-voice"></i> User Research</h2>
+          <p><strong>Method:</strong> Interviewed superstore staff across cashier, inventory, and management roles; observed workflows at 3 retail locations.</p>
+          <p><strong>Findings:</strong> Existing systems were disconnected, causing slow checkouts, manual inventory errors, and delayed sales reporting.</p>
+        </div>
 
-          <h2>Problem Statement</h2>
+        <!-- Problem Statement -->
+        <div class="content-card">
+          <h2><i class="bx bx-question-mark"></i> Problem Statement</h2>
           <p>
-            How might we design an integrated platform that simplifies daily superstore operations while
-             providing real-time access to critical data across all departments?
+            How might we design an integrated platform that simplifies daily superstore operations while providing real-time access to critical data across all departments?
           </p>
+        </div>
 
-          <h2>Design Process</h2>
-          <p>
-            <strong>Initial Focus:</strong> Began by designing the Point of Sale (POS) and Dashboard screens to establish the system’s core 
-            functionality and visual style
-          </p>
-          <p>
-            <strong>Expansion:</strong> Extended the prototype to cover additional modules, including Inventory Management, Product Listings, 
-            Cashier Management, and Sales Reporting.
-          </p>
-          <p>
-            <strong>Personas:</strong>  Created "Floor Cashier" and "Store Manager" personas to represent user needs from frontline
-             to back office.
-          </p>
-          <p>
-            <strong>Wireframes:</strong> Drafted layouts emphasizing quick access to products, real-time metrics, 
-            and simplified navigation.
-          </p>
-          <p>
-            <strong>Prototyping:</strong>Conducted usability sessions with 6 participants to optimize page flows and
-             button placements.
-          </p>
-          <p>
-            <strong>Visual Design:</strong>Applied a fresh, bright green gradient background paired with a clean white UI 
-            and accent colors for key actions to ensure clarity and focus.
-          </p>
+        <!-- Design Process -->
+        <div class="content-card">
+          <h2><i class="bx bx-bulb"></i> Design Process</h2>
+          <p><strong>Initial Focus:</strong> Began by designing the Point of Sale (POS) and Dashboard screens to establish the system’s core functionality and visual style.</p>
+          <p><strong>Expansion:</strong> Extended the prototype to cover additional modules, including Inventory Management, Product Listings, Cashier Management, and Sales Reporting.</p>
+          <p><strong>Personas:</strong> Created "Floor Cashier" and "Store Manager" personas to represent user needs from frontline to back office.</p>
+          <p><strong>Wireframes:</strong> Drafted layouts emphasizing quick access to products, real-time metrics, and simplified navigation.</p>
+          <p><strong>Prototyping:</strong> Conducted usability sessions with 6 participants to optimize page flows and button placements.</p>
+          <p><strong>Visual Design:</strong> Applied a fresh, bright green gradient background paired with a clean white UI and accent colors for key actions to ensure clarity and focus.</p>
+        </div>
 
-          <h2>Challenges</h2>
-          <p>
-            <strong>Challenge:</strong> Designing multiple complex modules without making the interface
-             overwhelming.
-          </p>
-          <p>
-            <strong>Solution:</strong> Segmented features into clear sections, used iconography and simple labels, 
-            and prioritized dashboard metrics for quick scanning.
-          </p>
+        <!-- Challenges -->
+        <div class="content-card">
+          <h2><i class="bx bx-block"></i> Challenges</h2>
+          <p><strong>Challenge:</strong> Designing multiple complex modules without making the interface overwhelming.</p>
+          <p><strong>Solution:</strong> Segmented features into clear sections, used iconography and simple labels, and prioritized dashboard metrics for quick scanning.</p>
+        </div>
 
-          <h2>Results</h2>
-          <p>
-            <strong>Metrics:</strong> Prototype testing showed a 35% improvement in task completion speed for cashier 
-            transactions, and store managers rated dashboard usability at 4.8/5 in user feedback sessions.
-          </p>
+        <!-- Results -->
+        <div class="content-card">
+          <h2><i class="bx bx-check-circle"></i> Results</h2>
+          <p><strong>Metrics:</strong> Prototype testing showed a <span class="highlight">35% improvement in task completion speed</span> for cashier transactions, and store managers rated dashboard usability at 4.8/5 in user feedback sessions.</p>
+        </div>
 
-          <h2>Visuals</h2>
+        <!-- Visuals -->
+        <div class="content-card">
+          <h2><i class="bx bx-image"></i> Visuals</h2>
           <div class="project-gallery">
-            <img
-              src="dash1.png"
-              alt="Wireframe"
-              class="gallery-img"
-            />
-            <img
-              src="dash4.jpeg"
-              alt="Dashboard"
-              class="gallery-img"
-            />
-            <img
-              src="dash2.png"
-              alt="Wireframe"
-              class="gallery-img"
-            />
-            <img
-              src="dash5.jpeg"
-              alt="Dashboard"
-              class="gallery-img"
-            />
+            <div class="gallery-item">
+              <img src="dash3.png" alt="Prototype" class="gallery-img" loading="lazy" />
+              <p class="gallery-caption">Prototype</p>
+            </div>
+            <div class="gallery-item">
+              <img src="dash1.png" alt="Dashboard" class="gallery-img" loading="lazy" />
+              <p class="gallery-caption">Dashboard</p>
+            </div>
+            <div class="gallery-item">
+              <img src="dash2.png" alt="POS System" class="gallery-img" loading="lazy" />
+              <p class="gallery-caption">POS System</p>
+            </div>
+            <div class="gallery-item">
+              <img src="dash5.jpeg" alt="Dashboard" class="gallery-img" loading="lazy" />
+              <p class="gallery-caption">Secondary Dashboard</p>
+            </div>
           </div>
+        </div>
 
+        <!-- Buttons -->
+        <div class="project-buttons">
           <a href="[Project Link]" class="btn">View Prototype</a>
           <a href="index.html#work" class="btn secondary">Back to Projects</a>
         </div>
       </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-      <p>© 2025 Sanni Sodiq. All Rights Reserved.</p>
+      <p>© 2025 Sanni Sodiq. Designed & Coded with Swagger.</p>
       <div class="social-links">
-        <a href="[Your GitHub URL]" target="_blank"
-          ><i class="bx bxl-github"></i
-        ></a>
-        <a href="[Your Twitter URL]" target="_blank"
-          ><i class="bx bxl-twitter"></i
-        ></a>
+        <a href="https://github.com/sodiqolaniyi" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://twitter.com/sodiqolaniyi" target="_blank"><i class="bx bxl-twitter"></i></a>
       </div>
     </footer>
+
+    <!-- Custom JS -->
+    <script src="project2.js"></script>
   </body>
 </html>
